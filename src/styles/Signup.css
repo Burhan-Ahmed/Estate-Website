@@ -1,0 +1,46 @@
+.container {
+    margin: 12vh auto;
+    padding: 70px 50px;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: max-content;
+    text-align: center;
+}
+
+.icon {
+    padding-bottom: 50px;
+}
+
+.inputForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputForm button {
+    margin-top: 50px;
+}
+
+input {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+    transition: 500ms ease-in-out;
+}
